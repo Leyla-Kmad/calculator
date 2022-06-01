@@ -122,23 +122,23 @@ button {
   font-weight: 800;
 }
 
-.calc__buttons{
-  background-color: var(--primary-color);
+.calc__buttons{  
   height: 60%;
   padding: 2rem;
-  
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
 }
 
-.btn {
-  
+.btn {  
   aspect-ratio: 1;
   font-size: 2.5rem;
   font-weight: 600;
   border: none;
-  border-radius: 100%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn:hover {
