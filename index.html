@@ -11,14 +11,14 @@
 
 <body>
   <header id="header" class="container header__wrapper">
-    
+
       <div class="headr__icon">
         <i class="fa-solid fa-calculator"></i> <span> Online Calculator</span>
       </div>
       <div class="headr__icon">
         <i class="fa-solid fa-circle-half-stroke"></i>
       </div>
-    
+
   </header>
   <main>
     <div class="container clac__wrapper">
@@ -38,75 +38,95 @@
           <i class="fa-solid fa-rotate-left"></i>
         </div>
       </section>
-      <section class="calc__screen">
-        <div class="calc__screen--calculation">
+      <section class="calc__display">
+        <!-- <div class="calc__display--calculation">
           <span class="calc__digit--small">814 &nbsp </span>
           <i class="fa-solid fa-xmark"></i>
           <span class="calc__digit--small">&nbsp 122</span>
-        </div>
-        <div class="calc__screen--result">99.308</div>
+        </div> -->
+        <div id="display" class="calc__display--result"></div>
       </section>
       <section class="calc__buttons">
         <div class="btn operator-btn-blue">
-          <i class="fa-solid fa-c"></i>
+          C
+          <!-- <i class="fa-solid fa-c"></i> -->
         </div>
         <div class="btn operator-btn-blue">
-          <span>+/-</span>
+          +/-
+          <!-- <span>+/-</span> -->
         </div>
         <div class="btn operator-btn-blue">
+          %
           <!-- <span>%</span> -->
-          <i class="fa-solid fa-percent"></i>
+          <!-- <i class="fa-solid fa-percent"></i> -->
         </div>
         <div class="btn operator-btn-red">
-          <i class="fa-solid fa-divide"></i>
+          <!-- <i class="fa-solid fa-divide"></i> -->
+          /
         </div>
         <div class="btn digit-btn">
-          <span>7</span>
+          <!-- <span>7</span> -->
+          7
         </div>
         <div class="btn digit-btn">
-          <span>8</span>
+          <!-- <span>8</span> -->
+          8
         </div>
         <div class="btn digit-btn">
-          <span>9</span>
+          <!-- <span>9</span> -->
+          9
         </div>
         <div class="btn operator-btn-red">
-          <i class="fa-solid fa-xmark"></i>
+          <!-- <i class="fa-solid fa-xmark"></i> -->
+          *
         </div>
         <div class="btn digit-btn">
-          <span>4</span>
+          <!-- <span>4</span> -->
+          4
         </div>
         <div class="btn digit-btn">
-          <span>5</span>
+          <!-- <span>5</span> -->
+          5
         </div>
         <div class="btn digit-btn">
-          <span>6</span>
+          <!-- <span>6</span> -->
+          6
         </div>
         <div class="btn operator-btn-red">
-          <i class="fa-solid fa-minus"></i>
+          <!-- <i class="fa-solid fa-minus"></i> -->
+          -
         </div>
         <div class="btn digit-btn">
-          <span>1</span>
+          <!-- <span>1</span> -->
+          1
         </div>
         <div class="btn digit-btn">
-          <span>2</span>
+          <!-- <span>2</span> -->
+          2
         </div>
         <div class="btn digit-btn">
-          <span>3</span>
+          <!-- <span>3</span> -->
+          3
         </div>
         <div class="btn operator-btn-red">
-          <i class="fa-solid fa-plus"></i>
+          <!-- <i class="fa-solid fa-plus"></i> -->
+          +
         </div>
         <div class="btn digit-btn">
-          <span>( )</span>
+          <!-- <span>( )</span> -->
+          ()
         </div>
         <div class="btn digit-btn">
-          <span>0</span>
+          <!-- <span>0</span> -->
+          0
         </div>
         <div class="btn digit-btn">
-          <span>.</span>
+          <!-- <span>.</span> -->
+          .
         </div>
-        <div class="btn operator-btn-red">
-          <i class="fa-solid fa-equals"></i>
+        <div id="equal" class="btn operator-btn-red">
+          <!-- <i class="fa-solid fa-equals"></i> -->
+          =
         </div>
       </section>
     </div>
@@ -114,5 +134,6 @@
   <footer>
 
   </footer>
+  <script src="index.js"></script>
 </body>
 </html>

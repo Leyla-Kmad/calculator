@@ -66,8 +66,8 @@ button {
 
 
 .clac__wrapper {
-  width: 38rem;
-  height: 78rem;
+  width: 30rem;
+  height: 65rem;
   background: #fff;
   margin-top: 7rem;
   margin-bottom: 5rem;
@@ -93,7 +93,7 @@ button {
   font-size: 2.5rem;
 }
 
-.calc__screen {
+.calc__display {
   width: 100%;
   height: 30%;
   padding: 3rem;
@@ -107,18 +107,18 @@ button {
   
 }
 
-.calc__screen--calculation {
+.calc__display--calculation {
   font-size: 2rem;
   font-weight: 700;
 }
 
-.calc__screen--calculation i,
+.calc__display--calculation i,
 .operator-btn-red {
   color: var(--accent-dark-color);
 }
 
-.calc__screen--result {
-  font-size: 5rem;
+.calc__display--result {
+  font-size: 3rem;
   font-weight: 800;
 }
 
